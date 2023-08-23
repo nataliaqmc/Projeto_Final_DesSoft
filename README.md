@@ -1,19 +1,18 @@
-# Projeto_Final_DesSoft
+# Projeto Final Design de Software - Insper 2020.1:
 
-@authors: Amanda Colucci, Letícia Sanchez e Natália Carreras
+**Feito por:** Amanda Colucci, Letícia Sanchez e Natália Carreras
 
-**Título:** "E.T de volta para casa"
+**Título:** E.T de volta para casa
 
-### //////////////////// ATENÇÃO  ////////////////////////////
+**Link do vídeo da demonstração do jogo postada no Youtube:** https://youtu.be/G7TSI5cWqWI
 
-Para rodar o jogo, inicie o arquivo "Iniciando.py"
+**Link da documentação:** https://nataliaqmc.github.io/Projeto_Final_DesSoft/
 
-### ////////////////////////////////////////////////////////////
-
-
-**Link do vídeo da demonstração do jogo postada no Youtube:** [https://youtu.be/G7TSI5cWqWI]
-
+#### Objetivo do projeto:
 O Projeto Final se baseia no desenvolvimento de um jogo de computador em Python 3 utilizando os recursos da biblioteca PyGame. Nosso projeto consiste em um jogo singleplayer em que o player salta entre as plataformas tentando não ser atingido pelos inimigos nem cair. 
+## Inicializando o jogo:
+    python3 Iniciando.py
+
 
 ## Enredo do jogo:
 
@@ -35,53 +34,23 @@ O Projeto Final se baseia no desenvolvimento de um jogo de computador em Python 
 - Para fazer com que Pink dê um salto maior, pressione a barra de espaço por mais tempo.
 
 ## Baixando dependências:
+    python3 -m pip install -r requirements.txt
 
-### Pygame:
-  
-#### Instalação
-  
-##### Windows e Linux:
-  
-  Abra o seu terminal (Linux) ou Anaconda Prompt (Windows) e digite:
-
-  pip install pygame
-
-##### Mac OSX:
-  
-  A instalação no Mac é um pouco mais complicada, infelizmente. Se você não tiver o Homebrew instalado, instale-o seguindo as instruções disponíveis neste link (se você não sabe se tem o Homebrew instalado, provavelmente não tem): [https://brew.sh/]
-   
-  Abra o terminal e digite:
-
-  brew install sdl2 sdl2_gfx sdl2_image sdl2_mixer sdl2_net sdl2_ttf
-
-  brew install Caskroom/cask/xquartz
-
-  git clone -b 1.9.6 --single-branch https://github.com/pygame/pygame.git cd pygame
-
-  python setup.py -config -auto -sdl2
-
-  python setup.py install
-
-  cd ..
-
-  rm -rf pygame
-
-
-  Para mais detalhes e outras opções de instalação no Mac, consulte a documentação: [https://www.pygame.org/wiki/MacCompile]
+  - Para mais detalhes e outras opções de instalação no Mac, consulte a documentação: https://www.pygame.org/wiki/MacCompile
 
 ## Músicas:
 
-Todos os áudios utilizados na elaboração do projeto foram retirados do site: [https://opengameart.org/]
+Todos os áudios utilizados na elaboração do projeto foram retirados do site: https://opengameart.org/
 
 ## Spritesheets/Imagens:
 
-Todas as imagens utilizadas na elaboração do projeto foram retiradas do site: [https://www.kenney.nl/assets/platformer-pack-redux]
+Todas as imagens utilizadas na elaboração do projeto foram retiradas do site: https://www.kenney.nl/assets/platformer-pack-redux
 
 ## Referências:
 
-- Kids Can Code [http://kidscancode.org].
-- Handout do professor.
-- Material disponível no curso de Design de Software.
-- Kenny [https://www.kenney.nl/].
-- Open Game Art [https://opengameart.org/].
-- Pygame [https://www.pygame.org/].
+- Kids Can Code http://kidscancode.org
+- Handout do professor
+- Material disponível no curso de Design de Software
+- Kenny: https://www.kenney.nl/
+- Open Game Art: https://opengameart.org/
+- Pygame: https://www.pygame.org/
