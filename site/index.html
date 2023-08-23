@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">My Docs</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#projeto_final_dessoft" class="nav-link">Projeto_Final_DesSoft</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#enredo-do-jogo" class="nav-link">Enredo do jogo:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#regras-do-jogo" class="nav-link">Regras do jogo:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#como-jogar" class="nav-link">Como jogar:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#baixando-dependencias" class="nav-link">Baixando dependências:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#musicas" class="nav-link">Músicas:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#spritesheetsimagens" class="nav-link">Spritesheets/Imagens:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#referencias" class="nav-link">Referências:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="projeto_final_dessoft">Projeto_Final_DesSoft</h1>
+<p>@authors: Amanda Colucci, Letícia Sanchez e Natália Carreras</p>
+<p><strong>Título:</strong> "E.T de volta para casa"</p>
+<h3 id="atencao">//////////////////// ATENÇÃO  ////////////////////////////</h3>
+<p>Para rodar o jogo, inicie o arquivo "Iniciando.py"</p>
+<h3 id="_1">////////////////////////////////////////////////////////////</h3>
+<p><strong>Link do vídeo da demonstração do jogo postada no Youtube:</strong> [https://youtu.be/G7TSI5cWqWI]</p>
+<p>O Projeto Final se baseia no desenvolvimento de um jogo de computador em Python 3 utilizando os recursos da biblioteca PyGame. Nosso projeto consiste em um jogo singleplayer em que o player salta entre as plataformas tentando não ser atingido pelos inimigos nem cair. </p>
+<h2 id="enredo-do-jogo">Enredo do jogo:</h2>
+<p>Com o intuito de voltar para casa, Pink o E.T salta de plataforma em plataforma enfrentando vários desafios, encontrando seus inimigos, os Abelhões, porém com seu poder de Super Salto consegue deixá-los para trás. Mas não deixe Pink encostar nos Abelhões, eles podem tirar uma de suas três vidas. Não se preocupe, caso você perca uma delas, pode consegui-la novamente pegando dez moedas. Aventure-se com Pink nessa incrível jornada :)</p>
+<h2 id="regras-do-jogo">Regras do jogo:</h2>
+<ul>
+<li>Caso você não faça Pink alcançar a plataforma e ele cair, você perderá todas as suas vidas e o jogo acabará.</li>
+<li>Pegando o Super Salto, Pink é lançado em elevadas. </li>
+<li>Você começa o jogo com três vidas.</li>
+<li>A cada moeda que você pega durante o jogo, você ganha 50 pontos no score. </li>
+<li>A cada 10 moedas que você pega durante um jogo, você ganha uma vida.</li>
+</ul>
+<h2 id="como-jogar">Como jogar:</h2>
+<ul>
+<li>Para iniciar o jogo, basta pressionar a barra de espaço. </li>
+<li>Para fazer com que Pink salte, pressione a barra de espaço.</li>
+<li>Para fazer com que Pink ande, pressione as teclas com as setas para a esquerda ou para a direita.</li>
+<li>Para fazer com que Pink dê um salto maior, pressione a barra de espaço por mais tempo.</li>
+</ul>
+<h2 id="baixando-dependencias">Baixando dependências:</h2>
+<h3 id="pygame">Pygame:</h3>
+<h4 id="instalacao">Instalação</h4>
+<h5 id="windows-e-linux">Windows e Linux:</h5>
+<p>Abra o seu terminal (Linux) ou Anaconda Prompt (Windows) e digite:</p>
+<p>pip install pygame</p>
+<h5 id="mac-osx">Mac OSX:</h5>
+<p>A instalação no Mac é um pouco mais complicada, infelizmente. Se você não tiver o Homebrew instalado, instale-o seguindo as instruções disponíveis neste link (se você não sabe se tem o Homebrew instalado, provavelmente não tem): [https://brew.sh/]</p>
+<p>Abra o terminal e digite:</p>
+<p>brew install sdl2 sdl2_gfx sdl2_image sdl2_mixer sdl2_net sdl2_ttf</p>
+<p>brew install Caskroom/cask/xquartz</p>
+<p>git clone -b 1.9.6 --single-branch https://github.com/pygame/pygame.git cd pygame</p>
+<p>python setup.py -config -auto -sdl2</p>
+<p>python setup.py install</p>
+<p>cd ..</p>
+<p>rm -rf pygame</p>
+<p>Para mais detalhes e outras opções de instalação no Mac, consulte a documentação: [https://www.pygame.org/wiki/MacCompile]</p>
+<h2 id="musicas">Músicas:</h2>
+<p>Todos os áudios utilizados na elaboração do projeto foram retirados do site: [https://opengameart.org/]</p>
+<h2 id="spritesheetsimagens">Spritesheets/Imagens:</h2>
+<p>Todas as imagens utilizadas na elaboração do projeto foram retiradas do site: [https://www.kenney.nl/assets/platformer-pack-redux]</p>
+<h2 id="referencias">Referências:</h2>
+<ul>
+<li>Kids Can Code [http://kidscancode.org].</li>
+<li>Handout do professor.</li>
+<li>Material disponível no curso de Design de Software.</li>
+<li>Kenny [https://www.kenney.nl/].</li>
+<li>Open Game Art [https://opengameart.org/].</li>
+<li>Pygame [https://www.pygame.org/].</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.5.2
+Build Date UTC : 2023-08-23 12:29:28.685750+00:00
+-->
