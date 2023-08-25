@@ -11,7 +11,7 @@
 #### Objetivo do projeto:
 O Projeto Final se baseia no desenvolvimento de um jogo de computador em Python 3 utilizando os recursos da biblioteca PyGame. Nosso projeto consiste em um jogo singleplayer em que o player salta entre as plataformas tentando não ser atingido pelos inimigos nem cair. 
 ## Inicializando o jogo:
-    python3 Iniciando.py
+    python3 src/Iniciando.py
 
 
 ## Enredo do jogo:
