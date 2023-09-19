@@ -3,7 +3,8 @@ import pygame
 from Classes import *
 from Jogo import *
 from Configuracoes import *
- 
+import imagem
+import som
 #Estrutura básica/principal do jogo
 pygame.init()
 
